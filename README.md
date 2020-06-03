@@ -14,7 +14,7 @@ This folder saves two python notebooks to process the data. Both take the 5 data
   
 `DataProcessing.ipynb`: This notebook first combines records, song information, user information all together and then split  registration_init_time and expiration_date into 3 detailed columns (year,month, day) for each. The export is *train_data.csv*, which will be used in the first model--`Logistic Regression-orignial data.ipynb`. 
   
-`FeatureData.ipynb`: This notebook includes extracting useful information from song informaton, song extra information, and user information. This notebook adds 10 more features and encodes all the categorical predictors.The exports are *processed_train_1.csv*(before encoding) and *FinalEncodedTrain.csv*(encoded data). The later file will be used from model 2 to model 5.  
+`FeatureData.ipynb`: This notebook extracts useful information from song informaton, song extra information, and user information. This notebook adds 10 more features and encodes all the categorical predictors.The exports are *processed_train_1.csv*(before encoding) and *FinalEncodedTrain.csv*(encoded data). The later file will be used from model 2 to model 5.  
   
 The testing data is processed in the same way on these two notebook. However, this project only uses the training data set provided by KKBOX. The original training set is split into a new 80% training set(x_train) and a new 20% testing set(x_test).   
    
