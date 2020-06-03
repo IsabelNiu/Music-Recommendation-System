@@ -25,7 +25,7 @@ All the models are run and evaluated solely based on training data set provided 
 1.`Logistic Regression-orignial data.ipynb`: Logistic regression model fit with original data (no additional features).  
 2.`Logistic_FeaturedData.ipynb`: Logistic regression model fit with featured data.  
 3.`LightGBM.ipynb`:  Light gradient boosting machine with featured data.  
-4.D`RandomForest.ipynb`: Random Forest model with featured data.    
+4.`RandomForest.ipynb`: Random Forest model with featured data.    
 5.`KNN.ipynb`: KNN with featured data.
 
 
